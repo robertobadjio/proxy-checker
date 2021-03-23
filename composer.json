@@ -1,0 +1,17 @@
+{
+    "name": "robertobadjio/proxy-checker",
+    "authors": [
+        {
+            "name": "Robert",
+            "email": "me@robertobadjio.ru"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    }
+}
