@@ -1,3 +1,0 @@
-services:
-  App\Command\CheckCommand:
-    $geoLiteDBPath: '%env(GEOLITE_DB_PATH)%'

@@ -25,15 +25,13 @@ class CheckCommand extends Command
     protected function configure()
     {
         $this->addArgument('ip', InputArgument::REQUIRED, 'Which Ip should you check?');
+        $this->geoLiteDBPath = $_ENV['GEOLITE_DB_PATH'];
     }
 
+    /**
+     * @var string
+     */
     private $geoLiteDBPath;
-
-    public function __construct($geoLiteDBPath)
-    {
-        parent::__construct();
-        $this->geoLiteDBPath = $geoLiteDBPath;
-    }
 
     /**
      * @inheritDoc
