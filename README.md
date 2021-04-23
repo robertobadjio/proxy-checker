@@ -3,7 +3,7 @@
 ####Install
 1. `composer install`
 2. Download GeoLite2-City.mmdb from https://dev.maxmind.com/geoip/geoip2/geolite2/
-3. Create .env file
+3. Create .env.local file
 
 Run the command: `php application.php proxy:check 104.236.123.137:8080`
 
